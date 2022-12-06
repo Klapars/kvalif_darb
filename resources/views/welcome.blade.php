@@ -90,9 +90,9 @@ body {
     
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <ul class="navbar-nav mr-auto">
-          <li class="nav-item active">
-            <a class="nav-link" href="https://www.youtube.com">Home <span class="sr-only">(current)</span></a>
-          </li>
+     
+          <img class="sealImage" alt="Image of Seal" src="../public/download.png">
+
           <li class="nav-item">
             <a class="nav-link" href="#">Link</a>
           </li>
@@ -123,7 +123,7 @@ body {
       </div>
     </nav>
     <div class="content">
-      <h3>Sticky Navigation Example</h3>
+      <h3>none Navigation Example</h3>
       <p>The navbar will stick to the top when you reach its scroll position.</p>
       <p>Some text to enable scrolling.. Lorem ipsum dolor sit amet, illum definitiones no quo, maluisset concludaturque et eum, altera fabulas ut quo. Atqui causae gloriatur ius te, id agam omnis evertitur eum. Affert laboramus repudiandae nec et. Inciderint efficiantur his ad. Eum no molestiae voluptatibus.</p>
       <p>Some text to enable scrolling.. Lorem ipsum dolor sit amet, illum definitiones no quo, maluisset concludaturque et eum, altera fabulas ut quo. Atqui causae gloriatur ius te, id agam omnis evertitur eum. Affert laboramus repudiandae nec et. Inciderint efficiantur his ad. Eum no molestiae voluptatibus.</p>

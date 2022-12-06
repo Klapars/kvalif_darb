@@ -91,7 +91,7 @@ body {
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <ul class="navbar-nav mr-auto">
           <li class="nav-item active">
-            <a class="nav-link" href=""><img src="C:\Users\114-14\Pictures\Saved Pictures\download.png" height="30" width="156" />Home <span class="sr-only">(current)</span></a>
+            <a class="nav-link" href="welcome"> <span class="sr-only">(current)</span></a>
           </li>
           <li class="nav-item">
             <a class="nav-link" href="#">Link</a>
