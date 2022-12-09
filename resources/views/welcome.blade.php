@@ -3,6 +3,8 @@
     <head>
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
+        <script type="text/javascript" src="lfs.js"></script>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.2.0/css/bootstrap.min.css">
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
         
         
@@ -74,6 +76,10 @@ body {
   margin-left: auto;
 }
         </style>
+        <script>$(document).ready(function() {
+          $('#example').DataTable();
+      } );</script>
+
     </head>
     <body class="antialiased">
 
@@ -92,6 +98,9 @@ body {
         <ul class="navbar-nav mr-auto">
      
           <img class="sealImage" alt="Image of Seal" src="../public/download.png">
+          <li class="nav-item active">
+            <a class="nav-link" href="home">home<span class="sr-only">(current)</span></a>
+          </li>
 
           <li class="nav-item">
             <a class="nav-link" href="#">Link</a>
@@ -134,5 +143,34 @@ body {
       <p>Some text to enable scrolling.. Lorem ipsum dolor sit amet, illum definitiones no quo, maluisset concludaturque et eum, altera fabulas ut quo. Atqui causae gloriatur ius te, id agam omnis evertitur eum. Affert laboramus repudiandae nec et. Inciderint efficiantur his ad. Eum no molestiae voluptatibus.</p>
     </div>
 
+
+    <table id="example" class="table table-striped dt-responsive nowrap" style="width:100%">
+      <thead>
+          <tr>
+              <th>First name</th>
+              <th>Last name</th>
+              <th>Position</th>
+              <th>Office</th>
+              <th>Age</th>
+              <th>Start date</th>
+              <th>Salary</th>
+              <th>Extn.</th>
+              <th>E-mail</th>
+          </tr>
+      </thead>
+      <tbody>
+          <tr>
+              <td>Tiger</td>
+              <td>Nixon</td>
+              <td>System Architect</td>
+              <td>Edinburgh</td>
+              <td>61</td>
+              <td>2011-04-25</td>
+              <td>$320,800</td>
+              <td>5421</td>
+              <td>t.nixon@datatables.net</td>
+          </tr>
+        </tbody>
+      </table>
     </body>
 </html>
