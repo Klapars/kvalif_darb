@@ -160,44 +160,34 @@ tr:nth-child(even) {
     </div>
 
 
-    <table id="example" class="table table-striped dt-responsive nowrap" style="width:100%">
-      <thead>
+    <table class="table">
+      <thead class="table-dark">
         <tr>
-          <th>Company</th>
-          <th>Contact</th>
-          <th>Country</th>
+          <th class="no-sort col-0 th--fixed" scope="col">#</th>
+          <th scope="col">First</th>
+          <th scope="col">Last</th>
+          <th scope="col">Handle</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <th scope="row">1</th>
+          <td>Mark</td>
+          <td>Otto</td>
+          <td>@mdo</td>
         </tr>
         <tr>
-          <td>Alfreds Futterkiste</td>
-          <td>Maria Anders</td>
-          <td>Germany</td>
+          <th scope="row">2</th>
+          <td>Jacob</td>
+          <td>Thornton</td>
+          <td>@fat</td>
         </tr>
         <tr>
-          <td>Centro comercial Moctezuma</td>
-          <td>Francisco Chang</td>
-          <td>Mexico</td>
+          <th scope="row">3</th>
+          <td colspan="2">Larry the Bird</td>
+          <td>@twitter</td>
         </tr>
-        <tr>
-          <td>Ernst Handel</td>
-          <td>Roland Mendel</td>
-          <td>Austria</td>
-        </tr>
-        <tr>
-          <td>Island Trading</td>
-          <td>Helen Bennett</td>
-          <td>UK</td>
-        </tr>
-        <tr>
-          <td>Laughing Bacchus Winecellars</td>
-          <td>Yoshi Tannamuri</td>
-          <td>Canada</td>
-        </tr>
-        <tr>
-          <td>Magazzini Alimentari Riuniti</td>
-          <td>Giovanni Rovelli</td>
-          <td>Italy</td>
-        </tr>
-        </tbody>
-      </table>
+      </tbody>
+    </table>
     </body>
 </html>
