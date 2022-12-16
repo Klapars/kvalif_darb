@@ -22,9 +22,10 @@ Auth::routes();
 Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
 Route::get('/standings', [StandingsController::class, 'index'])->name('standings');
 Route::get('/welcome', [App\Http\Controllers\WelcomeController::class, 'index'])->name('welcome');
-Route::get(
-    uri: 'scraper', 
-    action: [App\Http\Controllers\ScraperController::class, 'scraper']
-)
-->name(name:'scraper');
+Route::get('/scraper', [App\Http\Controllers\ScraperController::class, 'index'])->name('scraper');
+//Route::get(
+//    uri: 'scraper', 
+//    action: [App\Http\Controllers\ScraperController::class, 'scraper']
+//)
+//->name(name:'scraper');
 
