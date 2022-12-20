@@ -27,12 +27,12 @@ class ScraperController extends Controller
         // send a request to the desired URL
         $crawler = $client->request('GET', 'https://www.floorball.lv/ajax/ajax_chempionats_tabula_mini.php');
         // select the table you want to scrape
-        // $table = $crawler->filter('#chempionats_tabula_1')->eq(0);
+        $json = $crawler->filter('p')->text();
         // // initialize an empty array to hold the table data
         // $data = array();
-        // // iterate over the rows in the table
-        // $table->filter('tr')->each(function($row) use (&$data) {
-        // // initialize an empty array to hold the row data
+        // // // iterate over the rows in the table
+        // $json->filter('p')->each(function($row) use (&$data) {
+        // // // initialize an empty array to hold the row data
         // $rowData = array();
         // // iterate over the cells in the row
         // $row->filter('td, th')->each(function($cell) use (&$rowData) {
@@ -42,8 +42,8 @@ class ScraperController extends Controller
         // // add the row data to the table data array
         // $data[] = $rowData;
         // });
-        // print the table data array
-        dd($crawler);
-        // return view('scraper');
+        //print the table data array
+        dd(json_decode($json)->aaData);
+        return view('scraper');
     }
 }
