@@ -4,6 +4,7 @@ namespace App\Http\Controllers;
 use Goutte\Client as Goutte;
 
 use Illuminate\Http\Request;
+use mysqli;
 
 class ScraperController extends Controller
 {
@@ -47,3 +48,7 @@ class ScraperController extends Controller
         return view('scraper');
     }
 }
+
+
+
+
